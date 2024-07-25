@@ -1,0 +1,44 @@
+C++ was developed by Djarne stroustrup in 1979 as a extension of c language.
+we can write the c++ code in  a notepad also.
+C++ is fast as compared to other programming languages like python,etc bcoz it interact directly with the hardware without any intermediate like python,etc.
+c++ program >compiler >.exe file
+vs code is provided by microsoft.
+g++ is a compiler of c++.
+gives more control over system resources + memory management  results in efficient programs and high performance.
+major changes are done in c++ language in 2011,14,17.
+
+#include<iostream>  --> header files
+#preprocessor diective
+
+helps in doing input and output operations and many more functionalities.
+
+c++ ignores the blank lines.
+main() is a function which behaves as a entry point means program will start from the main function. 
+int specifies the rerturning datatype.
+semicolon is used for terminating ythe instruction we can write the other instruction after the semi colon but for the better readability and presentation we write the other instruction in a new line for the sake of maintainence.
+
+std is an abbreviation of "standard". std is the "standard namespace". cout , cin and a lot of other functions are defined within it.
+
+A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it. Namespaces are used to organize code into logical groups and to prevent name collisions that can occur especially when your code base includes multiple libraries.
+
+return 0 means the successful termination of the program.
+
+Low level : Hardware ke nazdeek
+High level : Logically sound & Hardware se duur
+
+Layers of abstraction (computer sabkuch 0's and 1's ke form m krta h)
+
+variables are the containers to store the data.
+// single line comment
+/* */ multiline comment
+comments are ignored by the compilers
+scope refers to the region in which the variable exists.
+local & global scope.
+local & global  varibles can have same name in c++
+data types in c++ :- built-in ,user defined, & derived.
+user defines : Struct , Enum ,Union
+derived data types - array,functions and pointers
+for new line endl or "\n" are used
+local variable has a higher presidence than the global variable.
+if bool has a value i.e., true then it gives 1 and if false gives 0.
+Variable name in c++ can range from 1 to 255 characters,must begin with the letter of an alphabet or an underscore,are case sensitive,spaces and special characters are not allowed,cann't use a keyword as a variable name. 
